@@ -1,0 +1,34 @@
+Arguments: 
+  /usr/local/Cellar/node/20.8.1/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js add socket.io
+
+PATH: 
+  /usr/local/bin:/usr/local/sbin:/Users/henorch/.nvm/versions/node/v16.20.2/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/sbin:/Users/henorch/.nvm/versions/node/v16.20.2/bin:/Users/henorch/anaconda3/bin:/Users/henorch/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.11/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.8.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+
+npm manifest: 
+  {
+    "name": "y",
+    "version": "y",
+    "description": "complete chat app",
+    "main": "index.js",
+    "author": "tunde henorch",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
